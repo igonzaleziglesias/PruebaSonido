@@ -24,8 +24,7 @@ public class ProbandoSonido {
             File a = new File("/home/local/DANIELCASTELAO/igonzaleziglesias/Escritorio/Balloon.wav");
             sonido.open(AudioSystem.getAudioInputStream(a));
             sonido.start();
-            System.out.println("Reproduciendo 1"
-                    + "s. de sonido...");
+            System.out.println("Reproduciendo 1s. de sonido...");
             Thread.sleep(1000); // 1000 milisegundos (1 segundos)
             sonido.close();
         } catch (Exception tipoError) {
